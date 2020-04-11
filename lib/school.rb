@@ -8,6 +8,7 @@ class School
   
   def add_student(student, place)
     @student = student
+    @place = place
   end
     
 end
