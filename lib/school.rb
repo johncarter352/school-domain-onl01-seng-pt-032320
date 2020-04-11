@@ -19,7 +19,8 @@ class School
     @roster[grade]
   end
   
-  def 
+  def sort 
+    
     
     
 end
