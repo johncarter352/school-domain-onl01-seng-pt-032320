@@ -11,6 +11,7 @@ class School
     @place = place
     if !(roster.include?(place))
       roster(place) = []
+    end
   end
     
 end
