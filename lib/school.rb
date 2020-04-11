@@ -10,8 +10,9 @@ class School
     @student = student
     @place = place
     if !(@roster.include?(place))
-      @roster[place] << student
+      @roster[place] = []
     end
+    @roster[place] << student
   end
     
 end
