@@ -9,6 +9,8 @@ class School
   def add_student(student, place)
     @student = student
     @place = place
+    if !(roster.include?(place))
+      roster(place) = []
   end
     
 end
