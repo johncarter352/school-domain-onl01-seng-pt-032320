@@ -9,8 +9,8 @@ class School
   def add_student(student, place)
     @student = student
     @place = place
-    if !(roster.include?(place))
-      roster(place) << name
+    if !(@roster.include?(place))
+      @roster(place) << name
     end
   end
     
